@@ -22,6 +22,8 @@ export default defineConfig({
   },
   server: {
     port: 8080,
+    open: true, // 服务启动时是否自动打开浏览器
+    cors: true, // 允许跨域
     host: '0.0.0.0',
     proxy: {
       '/api': { // 匹配请求路径，

@@ -30,6 +30,7 @@ npm install
 npm run dev
 ```
 
+> 账号 admin/123456
 ## <span id="catalogue">目录</span>
 
 - [环境变量配置](#env)
